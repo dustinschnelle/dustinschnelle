@@ -37,13 +37,6 @@
   reviews, investment decisions, and earnings analysis. Explores applied AI for personal knowledge management using
   pre-committed decision frameworks.
 
-  ## Learning in Progress
-
-  Currently completing **Linear Algebra (Level 3/4)**, focusing on Real Euclidean Space, Matrix Subspaces, and Graph
-   Theory.
-  *Up Next:* Calculus → Probability → Statistics → Neural Networks, culminating in an 8-Week LLM Math Curriculum
-  scheduled for August 2026.
-
   ## Tech Stack
 
   **Languages:**
