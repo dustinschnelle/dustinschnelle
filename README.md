@@ -24,8 +24,8 @@
 
   ### Personal Finance Dashboard
   **Private Repository | [Case Study Coming May 2026](#)**
-  A self-built household financial visibility system processing 8,000+ transactions across 5 institutions, with 14
-  PDF parsers and 28 quarters of 401(k) history visualized.
+  A self-built household financial visibility system processing 8,000+ transactions across multiple institutions, with custom
+  PDF parsers and multiple quarters of 401(k) history visualized.
   - **Tech Stack:** SQLite, Streamlit, Anthropic Claude API
   - **Architecture Highlight:** Implements a normalize → merchant memory cache → LLM API fallback → manual
   correction pattern. Cost-controlled caching ensures each unique merchant only hits the API once. Features a Liquid
