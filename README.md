@@ -1,82 +1,76 @@
 # Dustin Schnelle
-  **Data Center Production Operations Manager | Pacific Northwest**
+**Data Center Production Operations Manager | Pacific Northwest**
 
-  *Bridging hyperscale data center operations and applied AI engineering.*
+*Bridging hyperscale data center operations and applied AI engineering.*
 
-  ## About Me
+## About Me
 
-  I bring 7+ years of hyperscale data center operations experience to the applied AI space. Currently managing
-  production operations at Meta, I am building toward full-stack AI and Data Center expertise—operating at the
-  intersection of infrastructure knowledge and applied ML engineering. My philosophy is to solve real problems with
-  the smallest amount of code that could possibly work, ship things that real people use, and learn by building
-  rather than consuming.
+I'm a Data Center Production Operations Manager at Meta with 7+ years of hyperscale infrastructure experience — currently building and shipping applied AI systems at the intersection of infrastructure and applied ML engineering. My production work includes Tutordecks.com (a live AI assistant for the Magic: The Gathering community) and a household financial-visibility platform with LLM-powered transaction categorization. I work by the principle of solving real problems with the smallest amount of code that could possibly work, shipping things real people use, and learning by building rather than consuming.
 
-  ## Featured Projects
+## Featured Projects
 
-  ### [Tutordecks.com](https://tutordecks.com)
-  **Live Business | Full-Stack AI Application**
-  An AI-powered Magic: The Gathering assistant built entirely with Claude Code, currently serving real users in
-  production.
-  - **Tech Stack:** FastAPI, React, TypeScript, Vite, Tailwind, Anthropic Claude SDK, SQLite, Vultr
-  - **Architecture Highlight:** Features a 15-tool AI agent ("The Oracle") with 6 context-aware specialists.
-  Includes an Inline Oracle Widget embedded across the application, 6 collection import formats, and a full draft
-  simulator with an AI pick advisor. Uses Sonnet + Haiku model routing for cost and quality optimization.
+### [Tutordecks.com](https://tutordecks.com)
+**Live Business | Full-Stack AI Application**
+An AI-powered Magic: The Gathering assistant built entirely with Claude Code, currently serving real users in production.
+- **Tech Stack:** FastAPI, React, TypeScript, Vite, Tailwind, Anthropic Claude SDK, SQLite, Vultr
+- **Architecture Highlight:** Features a 15-tool AI agent ("The Oracle") with 6 context-aware specialists. Includes an Inline Oracle Widget embedded across the application, 6 collection import formats, and a full draft simulator with an AI pick advisor. Uses Sonnet + Haiku model routing for cost and quality optimization.
 
-  ### Personal Finance Dashboard
-  **Private Repository | [Case Study Coming May 2026](#)**
-  A self-built household financial visibility system processing 8,000+ transactions across multiple institutions, with custom
-  PDF parsers and multiple quarters of 401(k) history visualized.
-  - **Tech Stack:** SQLite, Streamlit, Anthropic Claude API
-  - **Architecture Highlight:** Implements a normalize → merchant memory cache → LLM API fallback → manual
-  correction pattern. Cost-controlled caching ensures each unique merchant only hits the API once. Features a Liquid
-   Asset Reservoir for real-time deployable-cash visibility.
+### Personal Finance Dashboard
+**Private Repository | Case study publishing May 2026**
+A self-built household financial visibility system processing 8,000+ transactions across multiple institutions, with custom PDF parsers and multiple quarters of 401(k) history visualized.
+- **Tech Stack:** SQLite, Streamlit, Anthropic Claude API
+- **Architecture Highlight:** Implements a normalize → merchant memory cache → LLM API fallback → manual correction pattern. Cost-controlled caching ensures each unique merchant only hits the API once. Features a Liquid Asset Reservoir for real-time deployable-cash visibility.
 
-  ### 2026 Second Brain
-  **In Progress | Conceptual**
-  An Obsidian vault and Claude Code orchestration system with custom slash commands for daily routines, weekly
-  reviews, investment decisions, and earnings analysis. Explores applied AI for personal knowledge management using
-  pre-committed decision frameworks.
+### 2026 Second Brain
+**Operational | Personal Use**
+An Obsidian vault and Claude Code orchestration system with custom slash commands for daily routines, weekly reviews, investment decisions, and earnings analysis. Explores applied AI for personal knowledge management using pre-committed decision frameworks.
 
-  ## Tech Stack
+## Skills & Tools
 
-  **Languages:**
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+**Applied AI Engineering:**
+- Multi-tool AI agent design (15-tool agent with 6 context-aware specialists — Tutordecks "Oracle")
+- LLM-powered data pipelines (normalize → memory cache → API fallback → manual correction)
+- Model routing for cost & quality optimization (Sonnet for reasoning, Haiku for classification)
+- Cost-controlled API caching architectures
+- Pre-committed decision frameworks for AI-assisted decision-making
+- Prompt engineering for production agentic systems
 
-  **AI/ML:**
-  ![Anthropic Claude
-  SDK](https://img.shields.io/badge/Anthropic_Claude-1A1A1A?style=flat-square&logo=anthropic&logoColor=white)
-  ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF6F00?style=flat-square)
-  ![Agentic Patterns](https://img.shields.io/badge/Agentic_Patterns-009688?style=flat-square)
+**AI Development Methodology:**
+- AI-augmented full-stack development using Claude Code as primary development partner
+- Emphasis on system architecture, integration, and deployment over framework-by-framework hand-coding
+- Production systems shipped end-to-end as a single architect/integrator
 
-  **Backend:**
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-  ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-  ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+**Languages:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-  **Frontend:**
-  ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-  ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-  ![Tailwind
-  CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+**AI/ML Tools:**
+![Anthropic Claude SDK](https://img.shields.io/badge/Anthropic_Claude-1A1A1A?style=flat-square&logo=anthropic&logoColor=white)
 
-  **Infrastructure & Ops:**
-  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-  ![Incident Response](https://img.shields.io/badge/Incident_Response-E34F26?style=flat-square)
+**Infrastructure & Operations:**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
-  ## Currently Working On
+*Project stack reference: Backend frameworks (FastAPI, Streamlit), data stores (SQLite, PostgreSQL), and frontend tools (React, Vite, Tailwind) are listed per-project in Featured Projects above — used as part of shipped applied AI systems rather than claimed as standalone framework expertise.*
 
-  - Scaling Tutordecks.com infrastructure and migrating from SQLite to PostgreSQL.
-  - Finalizing the architecture case study for the Personal Finance Dashboard.
-  - Advancing through the applied mathematics curriculum for ML engineering.
+## Currently Working On
 
-  ## Contact
+- Drafting Case Study #1: Tutordecks AI architecture (publishing late May 2026)
+- Drafting Case Study #2: Personal Finance AI architecture (publishing end of May 2026)
+- Advancing the applied mathematics curriculum — currently Linear Algebra L3/L4 → Calculus → Probability → Stats → Neural Networks
 
-  - **LinkedIn:** [linkedin.com/in/dustinschnelle](https://www.linkedin.com/in/dustinschnelle/)
-  - **GitHub:** [@dustinschnelle](https://github.com/dustinschnelle)
-  - **Email:** [duschn119@gmail.com](mailto:duschn119@gmail.com)
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/dustinschnelle](https://www.linkedin.com/in/dustinschnelle/)
+- **GitHub:** [@dustinschnelle](https://github.com/dustinschnelle)
+- **Email:** [duschn119@gmail.com](mailto:duschn119@gmail.com)
+
+---
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dustinschnelle&show_icons=true&theme=transparent&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dustinschnelle&layout=compact&theme=transparent&hide_border=true" alt="Top Languages" />
+</div>
